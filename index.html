@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Howard Bass — Author, Historical Researcher &amp; Fine Artist</title>
+  <meta name="description" content="Howard Bass is a Saskatchewan-born author, historical researcher and self-taught fine artist. Author of The Wheel of Life: Decoding the Holy Grail.">
+  <meta property="og:title" content="Howard Bass — Author, Historical Researcher & Fine Artist">
+  <meta property="og:description" content="History, ancestry and colour. Author of The Wheel of Life: Decoding the Holy Grail.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/paintings/web/2.jpg">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231f2638'/%3E%3Cpath d='M16 9c-3-2-7-2-9-1v15c2-1 6-1 9 1 3-2 7-2 9-1V8c-2-1-6-1-9 1zM16 9v15' fill='none' stroke='%23d9b56a' stroke-width='1.5'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.className = "js";</script>
+</head>
+<body>
+
+  <!-- ============ Preloader: pages turning while the name is written ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="pl-book">
+      <div class="pl-page pl-left"></div>
+      <div class="pl-page pl-right"></div>
+      <div class="pl-flip" style="--i:0"></div>
+      <div class="pl-flip" style="--i:1"></div>
+      <div class="pl-flip" style="--i:2"></div>
+    </div>
+    <svg class="pl-sign" viewBox="0 0 360 90">
+      <text x="50%" y="62" text-anchor="middle">Howard Bass</text>
+    </svg>
+    <p class="pl-sub">Author &middot; Historical Researcher &middot; Fine Artist</p>
+  </div>
+
+  <!-- Reading ribbon: grows as the visitor reads down the page -->
+  <div class="ribbon" id="ribbon" aria-hidden="true"></div>
+
+  <!-- ============ Header ============ -->
+  <header class="header" id="header">
+    <div class="wrap">
+      <a href="index.html" class="logo">Howard <em>Bass</em></a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="books.html">Books</a>
+        <a href="artworks.html">Artworks</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ Hero: a leather-bound book that opens ============ -->
+    <section class="hero">
+      <div class="hb" id="heroBook">
+
+        <!-- Right-hand page -->
+        <div class="hb-right">
+          <div class="paper">
+            <span class="hb-ribbon" aria-hidden="true"></span>
+            <p class="running-head ink">Prologue</p>
+            <p class="hb-lead ink" style="--d:.1s">Bridging historical inquiry, ancestral heritage and contemporary visual expression.</p>
+            <p class="hb-text dropcap ink" style="--d:.25s">Howard Bass is a Saskatchewan-born author, historical researcher and self-taught fine artist. His work explores the connections between history, culture, ancestry and human creativity.</p>
+            <div class="hb-cta ink" style="--d:.4s">
+              <a href="#book" class="btn btn-ink">Open the book</a>
+              <a href="#paintings" class="link-arrow">See the paintings <span>&rarr;</span></a>
+            </div>
+            <p class="folio ink" style="--d:.5s">ii</p>
+          </div>
+        </div>
+
+        <!-- Cover: front is the leather binding, back is the title page -->
+        <div class="hb-cover" id="heroCover">
+          <div class="hb-face hb-front" aria-hidden="true">
+            <div class="hb-front-inner">
+              <svg class="hb-emblem" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="38" stroke-dasharray="2 3"/><circle cx="50" cy="50" r="8"/>
+                <path d="M50 4v92M4 50h92M17.5 17.5l65 65M82.5 17.5l-65 65"/>
+              </svg>
+              <span class="hb-front-name">Howard Bass</span>
+              <span class="hb-front-sub">Collected Works</span>
+            </div>
+          </div>
+          <div class="hb-face hb-back">
+            <div class="paper">
+              <p class="running-head ink">Saskatchewan &middot; Canada</p>
+              <div class="title-page">
+                <span class="orn ink" style="--d:.1s" aria-hidden="true"><b class="fl"></b></span>
+                <h1 class="ink" style="--d:.15s">Howard <em>Bass</em></h1>
+                <span class="rule ink" style="--d:.25s" aria-hidden="true"></span>
+                <p class="roles ink" style="--d:.3s">Author &middot; Historical Researcher &middot; Fine Artist</p>
+                <svg class="signature" viewBox="0 0 360 90" aria-hidden="true">
+                  <text x="50%" y="62" text-anchor="middle">Howard Bass</text>
+                </svg>
+              </div>
+              <p class="folio ink" style="--d:.5s">i</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#contents" class="scroll-cue" aria-label="Scroll to contents">
+        <span>Turn the page</span><i></i>
+      </a>
+    </section>
+
+    <!-- ============ Contents ============ -->
+    <section class="section paper-bg contents" id="contents">
+      <div class="wrap narrow">
+        <header class="ch-head">
+          <span class="ch-num reveal">Table of</span>
+          <h2 class="reveal" style="--d:.08s">Contents</h2>
+          <span class="ch-orn reveal" style="--d:.16s" aria-hidden="true"><i></i><b class="fl"></b><i></i></span>
+        </header>
+        <ol class="toc">
+          <li class="reveal" style="--d:0s"><a href="#author"><span class="toc-n">I</span><span class="toc-t">The Author</span><span class="toc-dots"></span><span class="toc-p">1</span></a></li>
+          <li class="reveal" style="--d:.06s"><a href="#book"><span class="toc-n">II</span><span class="toc-t">The Wheel of Life</span><span class="toc-dots"></span><span class="toc-p">2</span></a></li>
+          <li class="reveal" style="--d:.12s"><a href="#paintings"><span class="toc-n">III</span><span class="toc-t">The Paintings</span><span class="toc-dots"></span><span class="toc-p">3</span></a></li>
+          <li class="reveal" style="--d:.18s"><a href="#exhibitions"><span class="toc-n">IV</span><span class="toc-t">Exhibitions</span><span class="toc-dots"></span><span class="toc-p">4</span></a></li>
+          <li class="reveal" style="--d:.24s"><a href="#giving"><span class="toc-n">V</span><span class="toc-t">Giving Back</span><span class="toc-dots"></span><span class="toc-p">5</span></a></li>
+          <li class="reveal" style="--d:.3s"><a href="#journal"><span class="toc-n">VI</span><span class="toc-t">The Journal</span><span class="toc-dots"></span><span class="toc-p">6</span></a></li>
+          <li class="reveal" style="--d:.36s"><a href="#letters"><span class="toc-n">&mdash;</span><span class="toc-t">Epilogue: Letters</span><span class="toc-dots"></span><span class="toc-p">7</span></a></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Chapter I: The Author ============ -->
+    <section class="section paper-bg chapter" id="author">
+      <div class="wrap">
+        <header class="ch-head">
+          <span class="ch-big" aria-hidden="true">I</span>
+          <span class="ch-num reveal">Chapter I</span>
+          <h2 class="reveal" style="--d:.08s">The Author</h2>
+          <span class="ch-orn reveal" style="--d:.16s" aria-hidden="true"><i></i><b class="fl"></b><i></i></span>
+        </header>
+
+        <div class="author-grid">
+          <p class="pull reveal">&ldquo;Exploring the connections between <em>history, culture, ancestry</em> and human creativity.&rdquo;</p>
+          <div class="prose reveal" style="--d:.12s">
+            <p class="dropcap">Born in Saskatchewan, Howard Bass has spent years following the threads that tie families to history: ancestral bloodlines, historical migrations, and the events that shaped generations across Europe and North America.</p>
+            <p>His research brings together genealogy, cultural history and documented historical events, and he shares it in his books and in articles published on Medium.</p>
+            <p>Alongside his writing he paints, self-taught and mostly in acrylics, guided by personal exploration and creative intuition.</p>
+            <a href="about.html" class="link-arrow">Read his story <span>&rarr;</span></a>
+          </div>
+        </div>
+
+        <div class="marginalia">
+          <article class="reveal" style="--d:0s">
+            <span class="m-num">i.</span>
+            <h3>Author</h3>
+            <p>Writer of <i>The Wheel of Life: Decoding the Holy Grail</i> and of research pieces on ancestry and heritage.</p>
+          </article>
+          <article class="reveal" style="--d:.12s">
+            <span class="m-num">ii.</span>
+            <h3>Historical Researcher</h3>
+            <p>Genealogy, cultural history, and the links between historical events and family lineage.</p>
+          </article>
+          <article class="reveal" style="--d:.24s">
+            <span class="m-num">iii.</span>
+            <h3>Fine Artist</h3>
+            <p>A self-taught painter in acrylics whose work is held by collectors internationally.</p>
+          </article>
+        </div>
+        <p class="folio">1</p>
+      </div>
+    </section>
+
+    <!-- ============ Chapter II: The Book ============ -->
+    <section class="section leather-bg chapter" id="book">
+      <div class="wrap book-grid">
+        <!-- Replace .book-cover contents with <img src="img/books/wheel-of-life.jpg" alt="..."> once the real cover is supplied -->
+        <div class="book-stage reveal">
+          <div class="book" id="book3d">
+            <div class="book-back"></div>
+            <div class="book-pages"></div>
+            <div class="book-cover">
+              <span class="bc-author">Howard Bass</span>
+              <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1">
+                <circle cx="50" cy="50" r="46"/><circle cx="50" cy="50" r="34"/><circle cx="50" cy="50" r="9"/>
+                <path d="M50 4v92M4 50h92M17.5 17.5l65 65M82.5 17.5l-65 65"/>
+              </svg>
+              <span class="bc-title">The Wheel<br>of Life</span>
+              <span class="bc-sub">Decoding the Holy Grail</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="book-copy">
+          <span class="ch-num reveal">Chapter II</span>
+          <h2 class="reveal" style="--d:.08s">The Wheel of Life <em>Decoding the Holy Grail</em></h2>
+          <p class="lead reveal" style="--d:.16s">An exploration of ancestral bloodlines, historical migrations, and the events that shaped generations of families across Europe and North America.</p>
+          <ul class="book-points reveal" style="--d:.24s">
+            <li>Traces family lineage through documented history</li>
+            <li>Follows the migrations from Europe to North America</li>
+            <li>Brings genealogy and cultural history together</li>
+          </ul>
+          <div class="book-actions reveal" style="--d:.32s">
+            <!-- TODO: replace with the book's real Amazon / retailer link -->
+            <a href="#" class="btn btn-gold" target="_blank" rel="noopener">Buy the book</a>
+            <a href="books.html" class="link-arrow light">All books <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Chapter III: Paintings ============ -->
+    <section class="section paper-bg chapter" id="paintings">
+      <div class="wrap">
+        <header class="ch-head">
+          <span class="ch-big" aria-hidden="true">III</span>
+          <span class="ch-num reveal">Chapter III</span>
+          <h2 class="reveal" style="--d:.08s">The Paintings</h2>
+          <span class="ch-orn reveal" style="--d:.16s" aria-hidden="true"><i></i><b class="fl"></b><i></i></span>
+          <p class="ch-intro reveal" style="--d:.22s">Self-taught, painted in acrylics, and shaped by the prairie: grain elevators, canola fields, bison and city lights.</p>
+        </header>
+
+        <!-- Titles are working titles until Howard confirms them. These will come from the admin dashboard. -->
+        <div class="plates">
+          <a href="img/paintings/web/1.jpg" class="plate reveal" data-title="River Lights" data-plate="Plate I">
+            <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/1.jpg" alt="Acrylic painting of an arched bridge lit at dusk, its lights reflected in the river below a city skyline" width="1400" height="1053" loading="lazy"></span></span>
+            <span class="plate-cap"><b>Plate I</b><i>River Lights</i><small>Acrylic on canvas</small></span>
+          </a>
+          <a href="img/paintings/web/3.jpg" class="plate reveal" style="--d:.1s" data-title="Golden Mane" data-plate="Plate II">
+            <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/3.jpg" alt="Oval acrylic painting of a horse running toward the viewer, its golden mane blown by the wind" width="967" height="1400" loading="lazy"></span></span>
+            <span class="plate-cap"><b>Plate II</b><i>Golden Mane</i><small>Acrylic on canvas</small></span>
+          </a>
+          <a href="img/paintings/web/4.jpg" class="plate reveal" style="--d:.2s" data-title="Prairie Sunrise" data-plate="Plate III">
+            <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/4.jpg" alt="Stylised acrylic painting of a red grain elevator beside rolling striped fields with the sun rising behind" width="1103" height="1400" loading="lazy"></span></span>
+            <span class="plate-cap"><b>Plate III</b><i>Prairie Sunrise</i><small>Acrylic on canvas</small></span>
+          </a>
+          <a href="img/paintings/web/2.jpg" class="plate reveal" data-title="The Pool Elevator" data-plate="Plate IV">
+            <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/2.jpg" alt="Acrylic painting of a weathered Pool grain elevator standing above a yellow canola field under a deep blue sky" width="1000" height="748" loading="lazy"></span></span>
+            <span class="plate-cap"><b>Plate IV</b><i>The Pool Elevator</i><small>Acrylic on canvas</small></span>
+          </a>
+          <a href="img/paintings/web/5.jpg" class="plate reveal" style="--d:.1s" data-title="Bison by the River" data-plate="Plate V">
+            <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/5.jpg" alt="Acrylic painting of two bison grazing on green grass beside a blue river" width="1400" height="1120" loading="lazy"></span></span>
+            <span class="plate-cap"><b>Plate V</b><i>Bison by the River</i><small>Acrylic on canvas</small></span>
+          </a>
+        </div>
+
+        <div class="center reveal">
+          <a href="artworks.html" class="btn btn-ink">View the full gallery</a>
+        </div>
+        <p class="folio">3</p>
+      </div>
+    </section>
+
+    <!-- ============ Chapter IV: Exhibitions ============ -->
+    <section class="section paper2-bg chapter" id="exhibitions">
+      <div class="wrap ex-grid">
+        <a href="img/paintings/web/6.jpg" class="plate ex-plate reveal" data-title="The Legislative Building, Regina" data-plate="Plate VI">
+          <span class="plate-frame"><span class="plate-img"><img src="img/paintings/web/6.jpg" alt="Acrylic painting of the Saskatchewan Legislative Building with its dome, flags, an equestrian statue and green gardens in front" width="1400" height="1400" loading="lazy"></span></span>
+          <span class="plate-cap"><b>Plate VI</b><i>The Legislative Building, Regina</i><small>Acrylic on canvas</small></span>
+        </a>
+
+        <div class="ex-copy">
+          <span class="ch-num reveal">Chapter IV</span>
+          <h2 class="reveal" style="--d:.08s">Exhibitions</h2>
+          <p class="lead reveal" style="--d:.16s">Howard's paintings have found collectors internationally and have been shown in Canada and the United States.</p>
+          <ol class="ex-list">
+            <li class="reveal" style="--d:.24s">
+              <span class="ex-place">Regina &middot; Canada</span>
+              <h3>Saskatchewan Legislative Building Gallery</h3>
+              <p>Paintings exhibited in the gallery of the province's Legislative Building.</p>
+            </li>
+            <li class="reveal" style="--d:.32s">
+              <span class="ex-place">New York City &middot; United States</span>
+              <h3>The Auras of Brooklyn</h3>
+              <p>Work featured in <i>The Auras of Brooklyn</i> exhibition.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Chapter V: Giving back ============ -->
+    <section class="section ink-bg chapter" id="giving">
+      <div class="wrap narrow center">
+        <span class="ch-num reveal">Chapter V</span>
+        <h2 class="reveal" style="--d:.08s">Giving Back</h2>
+        <span class="ch-orn reveal" style="--d:.16s" aria-hidden="true"><i></i><b class="fl"></b><i></i></span>
+        <blockquote class="reveal" style="--d:.22s">Art can be a powerful force for community engagement and <em>positive change.</em></blockquote>
+        <p class="reveal" style="--d:.3s">Throughout his career, Howard has donated original works to support charitable and community organizations, including:</p>
+      </div>
+      <ul class="wrap causes">
+        <li class="reveal" style="--d:0s"><span>I</span>Parkinson's disease research</li>
+        <li class="reveal" style="--d:.08s"><span>II</span>AIDS support organizations</li>
+        <li class="reveal" style="--d:.16s"><span>III</span>Saskatchewan Wildlife Federation</li>
+        <li class="reveal" style="--d:.24s"><span>IV</span>Creative Kids Saskatchewan</li>
+      </ul>
+    </section>
+
+    <!-- ============ Chapter VI: Journal ============ -->
+    <section class="section paper-bg chapter" id="journal">
+      <div class="wrap">
+        <header class="ch-head">
+          <span class="ch-big" aria-hidden="true">VI</span>
+          <span class="ch-num reveal">Chapter VI</span>
+          <h2 class="reveal" style="--d:.08s">The Journal</h2>
+          <span class="ch-orn reveal" style="--d:.16s" aria-hidden="true"><i></i><b class="fl"></b><i></i></span>
+        </header>
+
+        <!-- Placeholder entries: these will be loaded from the blog posts published in the admin dashboard -->
+        <div class="entries">
+          <article class="entry reveal">
+            <span class="entry-tag">Ancestry</span>
+            <h3><a href="blog.html">Reading a family line through history</a></h3>
+            <p>How documented events, records and migrations reveal the stories behind a family name.</p>
+            <a href="blog.html" class="link-arrow">Continue reading <span>&rarr;</span></a>
+          </article>
+          <article class="entry reveal" style="--d:.12s">
+            <span class="entry-tag">History</span>
+            <h3><a href="blog.html">Journeys from Europe to North America</a></h3>
+            <p>The movements of people that shaped generations of families on both sides of the Atlantic.</p>
+            <a href="blog.html" class="link-arrow">Continue reading <span>&rarr;</span></a>
+          </article>
+          <article class="entry reveal" style="--d:.24s">
+            <span class="entry-tag">Heritage</span>
+            <h3><a href="blog.html">Where culture and creativity meet</a></h3>
+            <p>On painting, heritage, and the threads that connect the past to the present.</p>
+            <a href="blog.html" class="link-arrow">Continue reading <span>&rarr;</span></a>
+          </article>
+        </div>
+        <p class="folio">6</p>
+      </div>
+    </section>
+
+    <!-- ============ Epilogue: Newsletter ============ -->
+    <section class="section paper2-bg" id="letters">
+      <div class="wrap">
+        <div class="letter reveal">
+          <span class="seal" aria-hidden="true">HB</span>
+          <span class="ch-num">Epilogue</span>
+          <h2>Letters from the <em>study</em></h2>
+          <p>New articles, paintings and book news, sent now and then. No spam, ever.</p>
+          <!-- Submits to the backend once built: subscribers are saved in the admin dashboard -->
+          <form class="nl-form" id="nlForm" novalidate>
+            <input type="email" id="nlEmail" name="email" placeholder="Your email address" aria-label="Email address" required autocomplete="email">
+            <button type="submit" class="btn btn-ink">Subscribe</button>
+          </form>
+          <p class="nl-msg" id="nlMsg" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="logo">Howard <em>Bass</em></a>
+          <p class="footer-tag">Author, historical researcher and self-taught fine artist from Saskatchewan, Canada.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="about.html">About</a>
+          <a href="books.html">Books</a>
+          <a href="artworks.html">Artworks</a>
+          <a href="blog.html">Blog</a>
+          <!-- TODO: replace with Howard's Medium profile URL -->
+          <a href="#" target="_blank" rel="noopener">Medium</a>
+        </nav>
+      </div>
+      <p class="fin" aria-hidden="true">Fin.</p>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> Howard Bass. All rights reserved.</span>
+        <span>Saskatchewan, Canada</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ Lightbox for the paintings ============ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Painting viewer" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous painting">&larr;</button>
+    <figure>
+      <img id="lbImg" src="" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next painting">&rarr;</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
