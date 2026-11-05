@@ -278,6 +278,9 @@ p { margin: 0 0 1.1em; }
   letter-spacing: .3em;
   text-transform: uppercase;
   font-size: .78rem;
+  line-height: 1.9;
+  text-align: center;
+  max-width: calc(100vw - 48px);
   color: rgba(217,181,106,.7);
   opacity: 0;
   animation: fadeIn 1s ease 1.2s forwards;
@@ -982,6 +985,7 @@ p { margin: 0 0 1.1em; }
   .causes li { border-right: 0 !important; border-bottom: 1px solid rgba(217,181,106,.25); }
   .nl-form { flex-direction: column; }
   .plates .plate { flex: 1 1 100%; }
+  .pl-sub { font-size: .6rem; letter-spacing: .15em; }
   .toc-p { display: none; }
   .ch-orn i { width: 44px; }
 }
