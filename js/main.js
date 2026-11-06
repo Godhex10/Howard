@@ -1,4 +1,4 @@
-/* Howard Bass — site interactions. No libraries, kept small on purpose. */
+/* Howard Brass — site interactions. No libraries, kept small on purpose. */
 
 (function () {
   "use strict";
