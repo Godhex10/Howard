@@ -8,7 +8,8 @@
 
   /* ---------- Preloader, then the hero book opens ---------- */
   var heroBook = document.getElementById("heroBook");
-  var minShow = reduceMotion ? 0 : 2600; // long enough for the name to be written
+  // Only the home page has a preloader; give it long enough for the name to be written
+  var minShow = reduceMotion || !document.getElementById("preloader") ? 0 : 2600;
   var started = Date.now();
   var opened = false;
 
